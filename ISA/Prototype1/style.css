@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    margin-right: 10px;
+}
+body {
+ 
+        background-image: url('https://greaterkashmir.imagibyte.sortdcdn.net/wp-content/uploads/2023/08/Screenshot__3664_.png');
+        background-size: cover;
+        background-position: center center; 
+        background-attachment: fixed; 
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+}
+.weather-container {
+    background-color: lightblue;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: red;
+}
+#weather-info {
+    margin-top: 20px;
+}
+#city-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: blue;
+}
+
+p {
+    font-size: 1em;
+    color: black;
+}
+#weather-icon {
+    max-width: 50%;
+    max-height: 50%;
+    position: absolute;
+}
+#footer {
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.date {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+    
+}
